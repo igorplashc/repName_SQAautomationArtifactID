@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="189" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="189" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+      <class name="com.day7.Test_FirstNonRepeatingChar">
+        <test-method status="PASS" signature="test_frstNnRptngChr_HashMap()[pri:1, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_frstNnRptngChr_HashMap" duration-ms="34" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+        </test-method>
+        <test-method status="PASS" signature="test_frstNnRptngChr_HashSet_ArrayList()[pri:1, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_frstNnRptngChr_HashSet_ArrayList" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+        </test-method>
+        <test-method status="PASS" signature="test_frstNnRptngChr_LinkedHashMap()[pri:3, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_frstNnRptngChr_LinkedHashMap" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+        </test-method>
+        <test-method status="PASS" signature="test_getFirstNonRepeatedChar_DP(java.lang.String, char)[pri:4, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_getFirstNonRepeatedChar_DP" duration-ms="6" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swiss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[w]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_getFirstNonRepeatedChar_DP(java.lang.String, char)[pri:4, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_getFirstNonRepeatedChar_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[igor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[i]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_getFirstNonRepeatedChar_DP(java.lang.String, char)[pri:4, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_getFirstNonRepeatedChar_DP" duration-ms="5" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aabbccd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_getFirstNonRepeatedChar_DP(java.lang.String, char)[pri:4, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_getFirstNonRepeatedChar_DP" duration-ms="5" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatingChar_DP(java.lang.String, char)[pri:5, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatingChar_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swiss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[w]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatingChar_DP(java.lang.String, char)[pri:5, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatingChar_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[igor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[i]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatingChar_DP(java.lang.String, char)[pri:5, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatingChar_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aabbccd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatingChar_DP(java.lang.String, char)[pri:5, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatingChar_DP" duration-ms="2" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatedCharacter_DP(java.lang.String, char)[pri:6, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatedCharacter_DP" duration-ms="2" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swiss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[w]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatedCharacter_DP(java.lang.String, char)[pri:6, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatedCharacter_DP" duration-ms="2" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[igor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[i]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatedCharacter_DP(java.lang.String, char)[pri:6, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatedCharacter_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aabbccd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_firstNonRepeatedCharacter_DP(java.lang.String, char)[pri:6, instance:com.day7.Test_FirstNonRepeatingChar@68837a77]" name="test_firstNonRepeatedCharacter_DP" duration-ms="3" started-at="2018-10-16T13:01:24Z" finished-at="2018-10-16T13:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

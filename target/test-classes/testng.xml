@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+	
+	<parameter name="sentenceToBeReversed"  value="Hello World"/>
+	<parameter name ="sentenceAfterReversing" value="World Hello"/>	
+    
+    <test name="Group of group Test">
+  
+	  <!-- <packages>
+	  	<package name = "com.day5.testing"/>
+	  	<package name = "com.week2.day4.examples.tests"/>
+	  </packages>
+	  -->
+  
+	  <groups>
+	    <run>
+	      <exclude name="NotGoodTests"  />
+	      <include name="GoodTests"  />
+	    </run>
+	  </groups>
+  
+  	 <classes>
+  	 	<class name = "com.day5.testing.Test_day5_01"/>
+  	 	<class name = "com.day5.testing.Test_day5_02"/>
+  	 </classes>	
+	 
+	 <!--  
+	 <classes>
+	   
+			<class name="com.week2.day4.examples.tests.testComputeSum"> 
+				<methods>
+					<include name = "testSumNumbers"/>
+				</methods>
+			</class>
+			<class name="com.day5.testing.Test_day5_01">
+				<methods>
+					<include name = "test_reverseSentence"/>
+					<include name = "test_reverseSentence_2"/>
+					
+				</methods>
+			</class>
+			
+	    </classes>
+	-->  
+    
+  </test>
+    
+  
+</suite>
